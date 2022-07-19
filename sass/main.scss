@@ -1,0 +1,90 @@
+@import './palette';
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Oleo+Script&family=Raleway:wght@700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2');
+@import './header';
+@import './promo';
+@import './sessions';
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+body {
+  background-color: $background;
+  padding: 0;
+  margin: 0;
+  font-family: 'Proxima Nova', sans-serif;
+  font-style: normal;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+
+button {
+  height: 36px;
+  width: 155px;
+  color: $white;
+  background-color: $blue;
+  border-radius: 3px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140%;
+}
+
+h1 {
+  font-family: 'El Messiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 140%;
+  color: $white;
+}
+
+h3 {
+  font-family: 'El Messiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: $white;
+}
+
+.headline {
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto 100px;
+}
+
+h2 {
+  font-family: 'El Messiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 140%;
+  color: $white;
+  margin: 0 45px;
+}
+
+
+

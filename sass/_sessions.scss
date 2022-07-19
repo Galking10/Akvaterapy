@@ -1,0 +1,37 @@
+.sessions {
+  
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+
+    &_items{
+      width: 856px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+  
+}
+
+.item1 {
+  width: 416px;
+  height: 540px;
+  border-radius: 10px;
+  background: url(../img/unsplash_TnOyyEtrKd01-min.jpg);
+}
+
+.item {
+  width: 416px;
+  height: 258px;
+  border-radius: 10px;
+  background: url(../img/unsplash_TnOyyEtrKd0-min.jpg);
+}
+

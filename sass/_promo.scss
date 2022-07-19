@@ -1,0 +1,38 @@
+.promo{
+    height: 600px;
+    border-radius: 10px;
+    background-image: url(../img/unsplash_S-llxYh3GzI-min.jpg);
+}
+
+.title{
+    width: 587px;
+    height: 180px;
+    margin-left: 355px;
+    margin-top: 0px;
+    margin-bottom: 210px;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.easy_title{
+    width: 485px;
+    height: 34px;
+    margin: 0 auto;
+    padding-top: 136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    &_h3{
+        margin: 0;
+    }
+
+}
+
+.petal{
+    width: 56px;
+    height: 28px;
+}
